@@ -1,12 +1,22 @@
-public class Main {
-    public static void main(String[] args) {
-        int a = 5;
+import java.util.Scanner;
 
-        if ((a < 2) || (a > 3)) {
-            System.out.println("yes");
-        } else {
-            System.out.println("no");
-        }
-        System.out.println(" Good bye!");
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("enter your number: ");
+
+        Scanner scan = new Scanner(System.in);
+
+        int a = 1;
+
+        int num = scan.nextInt();
+
+        int x = a + num;
+
+        System.out.println(x);
+
+        System.out.println(x * num);
+
     }
 }
